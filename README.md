@@ -30,7 +30,7 @@ Platform: Microsoft .NET Core 3.1.
 
 ### Endpoints
   - https://localhost:44384/api/message: Request Type: GET => Returns an array of all messages sent.
-  - https://localhost:44384/api/message : Request Type: POST => Initiates a new message request. Parameters values differ depending on message type. E.g. 'messageType' field accepts 0 for Email and 1 for SMS.
+  - https://localhost:44384/api/message : Request Type: POST => Initiates a new message request. Parameter values differ depending on message type. E.g. 'messageType' field accepts 0 for Email and 1 for SMS.
   - https://localhost:44384/api/Message/{status} Request Type: GET => Returns a list of failed or successful requests as indicated in the 'status' parameter.
 
 
